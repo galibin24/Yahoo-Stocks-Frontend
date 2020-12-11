@@ -25,7 +25,9 @@ function App() {
     setLoading(true);
     setShowTable(false);
     const url =
-      "http://localhost:5000/process" + "?" + new URLSearchParams(params);
+      "http://2f3e3dba02fd.ngrok.io/process" +
+      "?" +
+      new URLSearchParams(params);
 
     axios.get(url).then(async (response) => {
       if (
