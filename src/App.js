@@ -25,7 +25,7 @@ function App() {
     setLoading(true);
     setShowTable(false);
     const url =
-      "https://b909c3479930.ngrok.io/process" +
+      "https://e159de62840d.ngrok.io/process" +
       "?" +
       new URLSearchParams(params);
 
